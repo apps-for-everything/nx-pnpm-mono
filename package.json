@@ -1,12 +1,31 @@
 {
-	"name": "nx-pnpm-mono",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "Sukrut Sathaye <sukrutssathaye@gmail.com>",
-	"license": "MIT"
+  "name": "nx-pnpm-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sukrut Sathaye <sukrutssathaye@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@expo/cli": "~0.18.13",
+    "@nx/cypress": "19.6.4",
+    "@nx/eslint": "19.6.4",
+    "@nx/expo": "19.6.4",
+    "@nx/jest": "19.6.4",
+    "@nx/react-native": "19.6.4",
+    "cypress": "^13.13.0",
+    "eslint": "~8.57.0",
+    "jest": "^29.7.0",
+    "nx": "19.6.4"
+  },
+  "nx": {},
+  "dependencies": {
+    "expo": "~51.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1"
+  }
 }

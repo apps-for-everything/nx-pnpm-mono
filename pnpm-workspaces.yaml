@@ -1,0 +1,3 @@
+packages:
+  - 'ng-mono/*'
+  - 'rn-mono/*'
